@@ -241,9 +241,8 @@ class _TextFieldSearchState extends State<TextFieldSearch> {
               FocusScope.of(context).unfocus();
             },
             child: ListTile(
-                title: widget.getSelectedValue != null
-                    ? Text(filteredList[i].label)
-                    : Text(filteredList[i])));
+                title: Text(filteredList[i].title),
+                subtitle: Text(filteredList[i].subtitle));
       },
       padding: EdgeInsets.zero,
       shrinkWrap: true,
