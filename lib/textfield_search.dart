@@ -242,7 +242,7 @@ class _TextFieldSearchState extends State<TextFieldSearch> {
             },
             child: ListTile(
                 title: Text(filteredList[i].title),
-                subtitle: Text(filteredList[i].subtitle));
+                subtitle: Text(filteredList[i].subtitle)));
       },
       padding: EdgeInsets.zero,
       shrinkWrap: true,
